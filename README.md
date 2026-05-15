@@ -26,17 +26,17 @@ To explicitly balance efficacy and safety, the model employs classifier-free gui
 All related config is in the file of three notebooks,you can tune them in each single file.
 
 ##Usage and Model Training##
-All core execution scripts are located in the src/ directory as Jupyter Notebooks. These notebooks are designed to be self-contained, with all hyperparameters and configurations adjustable within the code cells.
+All core execution scripts are located in the directory as Jupyter Notebooks. These notebooks are designed to be self-contained, with all hyperparameters and configurations adjustable within the code cells.
 
-You can find the following notebooks in src/:
+You can find the following notebooks:
 
-- Diffusion_Training.ipynb: Scripts for training the conditional diffusion model within the ESM-2 latent space.
+- diffusion.ipynb: Scripts for training the conditional diffusion model within the ESM-2 latent space.
 
-- Decoder_Adaptation.ipynb: Scripts to fine-tune the noise-adapted language model head for accurate sequence decoding.
+- decoder.ipynb: Scripts to fine-tune the noise-adapted language model head for accurate sequence decoding.
 
-- Sampling_Generation.ipynb: Scripts to execute the multi-guided reverse diffusion process and generate novel peptide candidates. Users can toggle different guidance conditions (Antimicrobial, Non-hemolytic, or Both) to explore specific chemical spaces.
+- sampler.ipynb: Scripts to execute the multi-guided reverse diffusion process and generate novel peptide candidates. Users can toggle different guidance conditions (Antimicrobial, Non-hemolytic, or Both) to explore specific chemical spaces.
 
-To run these, simply navigate to the src/ folder and launch the Jupyter interface:
+To run these, simply navigate to the original folder and launch the Jupyter interface:
 
    ```bash
    cd src

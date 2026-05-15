@@ -22,8 +22,6 @@ To explicitly balance efficacy and safety, the model employs classifier-free gui
    ```bash
    pip install .
 
-## Training Model
-All related config is in the file of three notebooks,you can tune them in each single file.
 ## Model Information
 This repository contains model from Figshare,https://figshare.com/articles/online_resource/NHAMP/31341757
 ## Usage and Model Training

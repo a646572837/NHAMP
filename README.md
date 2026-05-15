@@ -14,10 +14,12 @@ To explicitly balance efficacy and safety, the model employs classifier-free gui
    
 2. **Create the Conda environment:**
 
+   ```bash
    conda env create -f environment.yaml
    conda activate NHAMP
    
 3. **Install NHAMP**
+   ```bash
    pip install .
 
 # Training Model

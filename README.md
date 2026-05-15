@@ -24,7 +24,8 @@ To explicitly balance efficacy and safety, the model employs classifier-free gui
 
 ## Training Model
 All related config is in the file of three notebooks,you can tune them in each single file.
-
+## Model Information
+This repository contains model from Figshare,https://figshare.com/articles/online_resource/NHAMP/31341757
 ## Usage and Model Training
 All core execution scripts are located in the root directory as Jupyter Notebooks. These notebooks are designed to be self-contained, with all hyperparameters and configurations adjustable within the code cells.
 
@@ -42,5 +43,3 @@ To run these, simply navigate to the root folder and launch the Jupyter interfac
    cd NHAMP
    jupyter notebook
 
-## Model Information
-This repository contains model from Figshare,https://figshare.com/articles/online_resource/NHAMP/31341757

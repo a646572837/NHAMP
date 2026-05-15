@@ -25,7 +25,7 @@ To explicitly balance efficacy and safety, the model employs classifier-free gui
 ## Training Model
 All related config is in the file of three notebooks,you can tune them in each single file.
 
-##Usage and Model Training##
+## Usage and Model Training
 All core execution scripts are located in the directory as Jupyter Notebooks. These notebooks are designed to be self-contained, with all hyperparameters and configurations adjustable within the code cells.
 
 You can find the following notebooks:

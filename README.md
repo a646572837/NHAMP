@@ -41,3 +41,6 @@ To run these, simply navigate to the root folder and launch the Jupyter interfac
    ```bash
    cd NHAMP
    jupyter notebook
+
+## Model Information
+This repository contains model from Figshare,https://figshare.com/articles/online_resource/NHAMP/31341757

@@ -23,7 +23,7 @@ To explicitly balance efficacy and safety, the model employs classifier-free gui
    pip install .
 
 ## Model Information
-This repository contains model from Figshare,https://figshare.com/articles/online_resource/NHAMP/31341757
+This repository contains model online,you can acquire it from Figshare,https://figshare.com/articles/online_resource/NHAMP/31341757
 ## Usage and Model Training
 All core execution scripts are located in the root directory as Jupyter Notebooks. These notebooks are designed to be self-contained, with all hyperparameters and configurations adjustable within the code cells.
 

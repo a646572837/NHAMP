@@ -7,18 +7,18 @@ NHAMP is a Deep Generative Model (DGM) that operates within the continuous embed
 To explicitly balance efficacy and safety, the model employs classifier-free guidance. During sampling, guidance can be accumulated from three distinct conditions (Antimicrobial, Non-hemolytic, and Dual-Property) to steer the generative trajectory directly toward the overlap of target activity and safety.
 ## Installation
 1. **Clone the repository:**
-```bash
+
+   ```bash
    git clone https://github.com/a646572837/NHAMP.git
    cd NHAMP
+   
+2. **Create the Conda environment:**
 
-2. **Create conda environment using environment file：**
-
-    conda env create -f environment.yaml
-    conda activate NHAMP
-
+   conda env create -f environment.yaml
+   conda activate NHAMP
+   
 3. **Install NHAMP**
-
-    pip install .
+   pip install .
 
 # Training Model
 All related config is in the file of three notebooks,you can tune them in each single file.

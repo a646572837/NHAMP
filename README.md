@@ -22,5 +22,5 @@ To explicitly balance efficacy and safety, the model employs classifier-free gui
    ```bash
    pip install .
 
-# Training Model
+## Training Model
 All related config is in the file of three notebooks,you can tune them in each single file.
